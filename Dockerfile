@@ -1,3 +1,3 @@
-FROM mariadb:10.1.16
+FROM mariadb:10.2
 
-VOLUME /var/log/mysql
+COPY custom.cnf /etc/mysql/conf.d/custom.conf
