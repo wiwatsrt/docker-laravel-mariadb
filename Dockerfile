@@ -1,3 +1,3 @@
-FROM mariadb:10.2
+FROM mysql:5.7
 
 COPY custom.cnf /etc/mysql/conf.d/custom.conf
